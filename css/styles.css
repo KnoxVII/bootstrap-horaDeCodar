@@ -164,7 +164,7 @@ about-area {
 
 /* Dados */
 .circle-box div {
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 .progressbar-text {
@@ -176,5 +176,10 @@ about-area {
     color: #fff;
     font-size: 26px;
     margin-top: 20px;
+    text-align: center;
+}
+
+/* Time  */
+.card-body {
     text-align: center;
 }
