@@ -18,7 +18,20 @@ p, li {
 
 /* Barra de navegação */
 header, .navbar {
-    background-color: #353D41;
+    background-color: #353D41;   
+}
+
+.navbar-nav a {
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    transition: .2s ease-in-out;
+    
+}
+
+.navbar-nav a:hover {
+    background-color: #65DAF9;
 }
 
 #nav-container {
