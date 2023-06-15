@@ -342,3 +342,78 @@ about-area {
     width: auto;
 }
 
+/* Footer  */
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3EC1D5;
+}
+
+.contact-box i {
+    border: 1px solid #444;
+    border-radius: 50%;
+    color: #444;
+    font-size: 24px;
+    height: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    width: 55px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #3EC1D5;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    height: 50px;
+    width: 120px;
+}
+
+#contact-form .main-btn:hover {
+    color: #3EC1D5;
+}
+
+/* Copy */
+#copy-area {
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    color: #444;
+    font-weight: bold;
+    transition: .2s;
+}
+
+#copy-area .container a:hover {
+    color: #3EC1D5;
+    text-decoration: none;
+}
