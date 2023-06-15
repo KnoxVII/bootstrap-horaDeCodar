@@ -234,3 +234,111 @@ about-area {
     background-color: #65DAF9;
 }
 
+/* Portfolio */
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area, .filter-btn {
+    background-color: transparent;
+    border: 1px solid #444;
+    color: #444;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px 15px;
+    min-width: 100px;
+    padding: 0px 20px;
+    text-transform: none;
+    width: auto;
+}
+
+#portfolio-area, .filter-btn.active, 
+#portfolio-area, .filter-btn:hover {
+    color: #fff;
+    background-color: #65DAF9;
+    border-color: #65DAF9;
+}
+
+/* Newsletter */
+#news-area {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #65DAF9;
+    box-sizing: border-box;
+    display: inline;
+    height: 40px;
+    width: 40%;
+}
+
+#news-btn {
+    background-color: #65DAF9;
+    border: 1px solid #65DAF9;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #FFF;
+    height: 40px;
+    margin-left: -130px;
+    padding: 0 30px;
+    position: absolute;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#news-btn:hover {
+    background-color: #FFF;
+    color: #65DAF9;
+}
+
+/* Call to action */
+#call-area {
+    background-color: #65DAF9;
+    text-transform: uppercase;
+}
+
+#call-area .container {
+    padding: 40px 100px;
+}
+
+#call-area .row {
+    display: block;
+    text-align: center;
+}
+
+#call-area p {
+    color: #fff;
+    display: inline;
+    letter-spacing: 2px;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 60px;
+    margin-bottom: 0;
+    width: auto;
+}
+
+#call-area #call-btn {
+    background-color: #FFF;
+    color: #65DAF9;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    width: auto;
+}
+
