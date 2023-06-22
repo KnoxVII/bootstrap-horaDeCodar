@@ -60,30 +60,34 @@ header, .navbar {
     padding: 1rem .8rem;
 }
 
+.nav-item.active {
+    border-bottom: 3px solid #FFF;
+}
+
 /* Slider */
 .container-fluid {
     padding: 0;
 }
 
-#mainSlider, .carousel-inner, #mainSlider, .carousel-item {
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
     height: 90vh;
 }
 
-#mainSlider, .carousel-caption {
+#mainSlider .carousel-caption {
     top: 30%;
 }
 
-.carousel-caption > h2 {
+#mainSlider .carousel-caption > h2 {
     font-size: 50px;
     margin-bottom: 30px;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
-.carousel-caption p {
+#mainSlider .carousel-caption p {
     color: #fff;
     font-size: 22px;
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -111,7 +115,7 @@ header, .navbar {
 }
 
 /* Sobre a empresa */
-about-area {
+#about-area {
     background-color: #f9f9f9;
 }
 
@@ -259,7 +263,7 @@ about-area {
     text-align: center;
 }
 
-#portfolio-area, .filter-btn {
+#portfolio-area .filter-btn {
     background-color: transparent;
     border: 1px solid #444;
     color: #444;
@@ -272,8 +276,8 @@ about-area {
     width: auto;
 }
 
-#portfolio-area, .filter-btn.active, 
-#portfolio-area, .filter-btn:hover {
+#portfolio-area .filter-btn.active, 
+#portfolio-area .filter-btn:hover {
     color: #fff;
     background-color: #65DAF9;
     border-color: #65DAF9;
@@ -443,8 +447,8 @@ about-area {
     }
 
     /* Slider  */
-    #mainSlider, .carousel-inner, 
-    #mainSlider, .carousel-item {
+    #mainSlider .carousel-inner, 
+    #mainSlider .carousel-item {
         height: auto;
     }
 
@@ -532,9 +536,17 @@ about-area {
 /* Mobile  */
 @media screen and (max-width: 429px) {
     /* Slider  */
+    #mainSlider {
+        margin-top: 90px;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 5%;
+    }
+
     #mainSlider .carousel-caption h2 {
         font-size: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
     #mainSlider .carousel-caption p {
@@ -580,7 +592,7 @@ about-area {
     }
 
     /* Filtro  */
-    #portfolio-area, .filter-btn {
+    #portfolio-area .filter-btn {
         margin-bottom: 20px;
     }
 
