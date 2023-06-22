@@ -579,5 +579,43 @@ about-area {
         display: none;
     }
 
-    
+    /* Filtro  */
+    #portfolio-area, .filter-btn {
+        margin-bottom: 20px;
+    }
+
+    .project-box {
+        width: 50%;
+    }
+
+    /* Newsletter  */
+    #news-area .main-title {
+        font-size: 24px;
+    }
+
+    #news-area p {
+        font-size: 14px;
+    }
+
+    #email-input {
+        width: 80%;
+    }
+
+    /* CTA  */
+    #call-area p {
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+
+    #call-area #call-btn {
+        font-size: 16px;
+        margin: 0;
+        width: 50%;
+    }
+
+    /* Contato  */
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
 }
